@@ -6,10 +6,6 @@
 	$profileData = $getFromU->userData($profileId);
 	$user_id = $_SESSION['user_id'];
     $user = $getFromU->userData($user_id);
-
-	if(!$profileData){
-		header('Location: index.php');  
-	}
 }
 ?>
 <!doctype html>
